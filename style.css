@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+   
+}
+
+.nav{
+    background-color: darkslategrey;
+    width: 960px;
+    height: 60px;
+    margin: 0 auto;
+}
+/*--logo--*/
+.logo{
+    float: left;
+    width: 80px;
+    height: 60px;
+    background-color: fuchsia;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0 10px 8px 0 red;    
+}
+.logo:hover{
+    background-color: cyan;
+
+    /*--nav--*/
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ .nav ul li{
+    float: right;
+    padding: 10px 30px; 
+    position: relative; 
+   
+}
+
+.nav ul li a{
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase; 
+    width: 100px;    height: 30px;
+    left: 0;
+    background-color: rgb(245, 108, 11);
+    text-align: center;
+  
+}
+
+ul li a:hover{
+    background-color:rgb(150, 73, 73);
+}
+ul li ul{
+    position: absolute;
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+}
+
+
+/*------section-----*/
+
+.home{
+    
+    background-color: blueviolet;
+    width:960px;
+    height: 320px;
+    padding: 40px;
+    text-align: center;
+   margin: 0 auto;
+}
+h2{
+   text-transform: uppercase;
+   font-size: 25px;
+   border-bottom: 2px solid #fff;
+}
+p{
+  margin-top: 20px;
+  width: 400px;
+  height: 200px; 
+  text-align: center;
+  float: left;
+  background-color: antiquewhite;
+
+}
+.red{
+    background-color: burlywood;
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+}
+/*----img----*/
+.banner {
+    width: 960px;
+    margin:0 auto ;
+}
+
+
+
+img {
+    border: 1px solid red;
+    max-width: 100%;
+    height:300px;
+    
+  }
+  /*----form----*/
+  input[type=text] {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 400px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  .row{
+      width: 960px;
+      margin: 0 auto;
+      border: 1px solid red;
+     
+      
+  }
+  h3{
+      text-align: center;
+      border-bottom: 2px solid #444;
+      text-transform: uppercase;
+    
+  }
+  footer{
+      background-color: tomato;
+      width: 960px;
+      height: 100px;
+      padding: 10px;
+      margin: 0 auto;
+  }
+  h1{
+      text-align: center;
+  }
+  
